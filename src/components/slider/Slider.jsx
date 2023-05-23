@@ -1,4 +1,5 @@
 import React from 'react'
+import { Navigation, Pagination } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
 import 'swiper/css'
@@ -12,10 +13,14 @@ const Slider = () => {
 	return (
 		<div className='s_container'>
 			<Swiper
+				className='my_swiper'
+				modules={[Pagination, Navigation]}
+				navigation={true}
 				slidesPerView={3}
 				spaceBetween={40}
 				slidesPerGroup={1}
 				loop={true}
+				loopFillGroupWithBlank={true}
 			>
 				{SliderProducts.map((product, index) => {
 					return (
@@ -27,7 +32,7 @@ const Slider = () => {
 								</div>
 
 								<span>{product.price} $</span>
-								<button>Shop now</button>
+								<button className='btn_product'>Shop now</button>
 							</div>
 							<img src={product.img} alt='Product' className='img_product' />
 						</SwiperSlide>
