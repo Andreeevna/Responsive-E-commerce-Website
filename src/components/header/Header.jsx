@@ -8,7 +8,7 @@ const Header = () => {
 		<div className={styles.container}>
 			<div className={styles.logo}>
 				<img src={LogoImg} alt='Logo' />
-				<span>Amazon</span>
+				<span>amazon</span>
 			</div>
 			<div className={styles.right}>
 				<div className={styles.menu}>
@@ -20,7 +20,7 @@ const Header = () => {
 						<li>ENG</li>
 					</ul>
 				</div>
-				<input type='text' className={styles.search} />
+				<input type='text' className={styles.search} placeholder='search...' />
 				<RiShoppingCartLine className={styles.cart} />
 			</div>
 		</div>
