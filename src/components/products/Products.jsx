@@ -7,16 +7,21 @@ import styles from './Products.module.css'
 
 const Products = () => {
 	const [products, setProducts] = useState(ProductsData)
+
+	const filter = type => {
+		let filteredProducts = ProductsData.filter(product => product.type === type)
+		setProducts(filteredProducts)
+	}
 	return (
 		<div className={styles.container}>
 			<img src={Plane} alt='Plane' />
 			<h1 className={styles.products_title}>Our Feature Products</h1>
 			<div className={styles.products}>
 				<ul className={styles.products_menu}>
-					<li>All</li>
-					<li>Skin Care</li>
-					<li>Conditioner</li>
-					<li>Foundation</li>
+					<li onClick={() => setProducts(ProductsData)}>All</li>
+					<li onClick={() => filter('skin care')}>Skin Care</li>
+					<li onClick={() => filter('conditioner')}>Conditioner</li>
+					<li onClick={() => filter('foundation')}>Foundation</li>
 				</ul>
 
 				<div className={styles.products_list}>
