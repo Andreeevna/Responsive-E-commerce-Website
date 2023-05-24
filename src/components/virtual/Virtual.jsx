@@ -12,6 +12,7 @@ const Virtual = () => {
 				<span>Try Now!</span>
 				<img src={Shade} alt='Shade' />
 			</div>
+			<div>Virtual</div>
 		</div>
 	)
 }

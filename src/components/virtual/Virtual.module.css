@@ -1,0 +1,41 @@
+.virtual {
+	margin-top: 6rem;
+	margin-bottom: 6rem;
+	padding: 2rem;
+	display: flex;
+	justify-content: space-around;
+}
+
+.left_side {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.left_side > :nth-child(1) {
+	display: block;
+	width: 20rem;
+	font-size: 2rem;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.left_side > :nth-child(2) {
+	display: block;
+	width: 20rem;
+	font-size: 1.6rem;
+	text-transform: uppercase;
+}
+
+.left_side > :nth-child(3) {
+	display: block;
+	font-size: 1.6rem;
+	font-weight: 700;
+}
+
+.left_side > img {
+	position: absolute;
+	width: 30rem;
+	bottom: 3rem;
+}
