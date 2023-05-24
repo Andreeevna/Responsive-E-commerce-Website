@@ -1,0 +1,36 @@
+.container {
+	padding: 0 2rem;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+}
+
+.container > img {
+	position: absolute;
+	width: 8rem;
+	left: 30%;
+	top: -3rem;
+}
+
+.products {
+	display: grid;
+	grid-template-columns: 25% auto;
+	width: 90%;
+}
+
+.products_menu {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	font-size: 1.3rem;
+	font-weight: 500;
+	list-style: none;
+}
+
+.products_menu > li:hover {
+	color: var(--pink);
+	cursor: pointer;
+}
