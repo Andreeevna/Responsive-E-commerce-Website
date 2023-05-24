@@ -21,7 +21,15 @@ const Products = () => {
 
 				<div className={styles.products_list}>
 					{products.map((item, index) => {
-						return <Product />
+						return (
+							<Product
+								name={item.name}
+								details={item.details}
+								price={item.price}
+								img={item.img}
+								type={item.type}
+							/>
+						)
 					})}
 				</div>
 			</div>
