@@ -36,6 +36,10 @@
 
 .left_side > img {
 	position: absolute;
-	width: 30rem;
+	width: 10rem;
 	bottom: 3rem;
+}
+
+.right_side__container {
+	width: 30rem;
 }
