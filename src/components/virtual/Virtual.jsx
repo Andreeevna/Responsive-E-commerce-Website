@@ -1,7 +1,19 @@
 import React from 'react'
 
+import Shade from '../../assets/shade.png'
+import styles from './Virtual.module.css'
+
 const Virtual = () => {
-	return <div>Virtual</div>
+	return (
+		<div className={styles.virtual}>
+			<div className={styles.left_side}>
+				<span>VIRTUAL TRY-ON</span>
+				<span>NEVER BUY THE WRONG SHADE AGAIN!</span>
+				<span>Try Now!</span>
+				<img src={Shade} alt='Shade' />
+			</div>
+		</div>
+	)
 }
 
 export default Virtual
