@@ -1,15 +1,12 @@
 import { RiShoppingCartLine } from 'react-icons/ri'
 
-import LogoImg from '../../assets/logo.png'
+import Logo from '../logo/Logo'
 import styles from './Header.module.css'
 
 const Header = () => {
 	return (
 		<div className={styles.container}>
-			<div className={styles.logo}>
-				<img src={LogoImg} alt='Logo' />
-				<span>amazon</span>
-			</div>
+			<Logo />
 			<div className={styles.right}>
 				<div className={styles.menu}>
 					<ul className={styles.menu__list}>

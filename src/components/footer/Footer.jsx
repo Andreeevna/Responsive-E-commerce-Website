@@ -10,7 +10,7 @@ import React from 'react'
 
 //  } from '@heroicons/react/outline'
 
-import Logo from '../../assets/logo.png'
+import Logo from '../logo/Logo'
 import styles from './Footer.module.css'
 
 const Footer = () => {
@@ -18,10 +18,7 @@ const Footer = () => {
 		<div className={styles.footer_container}>
 			<hr />
 			<div className={styles.footer}>
-				<div className={styles.logo}>
-					<img src={Logo} />
-					<span>amazon</span>
-				</div>
+				<Logo />
 			</div>
 		</div>
 	)

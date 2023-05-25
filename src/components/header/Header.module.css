@@ -3,22 +3,6 @@
 	display: flex;
 }
 
-.logo {
-	display: flex;
-	align-items: center;
-	flex: 1;
-	gap: 1rem;
-}
-
-.logo > img {
-	width: 2.5rem;
-	width: 2.5 rem;
-}
-
-.logo > span {
-	font-weight: 600;
-}
-
 .right {
 	display: flex;
 	justify-content: center;
