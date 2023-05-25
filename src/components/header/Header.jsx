@@ -4,9 +4,10 @@ import Logo from '../logo/Logo'
 import styles from './Header.module.css'
 
 const Header = () => {
+	const flex = { flex: 1 }
 	return (
 		<div className={styles.container}>
-			<Logo />
+			<Logo style={flex} />
 			<div className={styles.right}>
 				<div className={styles.menu}>
 					<ul className={styles.menu__list}>

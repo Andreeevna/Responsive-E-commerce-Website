@@ -1,7 +1,6 @@
 .logo {
 	display: flex;
 	align-items: center;
-	flex: 1;
 	gap: 1rem;
 }
 
@@ -12,4 +11,5 @@
 
 .logo > span {
 	font-weight: 600;
+	font-size: 1rem;
 }
