@@ -20,18 +20,16 @@ const Header = () => {
 				<div className={styles.burger} onClick={toggleMenu}>
 					<GoThreeBars />
 				</div>
-				<div className={styles.menu}>
-					<ul
-						className={styles.menu__list}
-						style={{ display: showMenu ? 'inherit' : 'none' }}
-					>
-						<li>Collections</li>
-						<li>Brands</li>
-						<li>New</li>
-						<li>Sales</li>
-						<li>ENG</li>
-					</ul>
-				</div>
+				<ul
+					className={styles.menu__list}
+					style={{ display: showMenu ? 'inherit' : 'none' }}
+				>
+					<li>Collections</li>
+					<li>Brands</li>
+					<li>New</li>
+					<li>Sales</li>
+					<li>ENG</li>
+				</ul>
 				<input type='text' className={styles.search} placeholder='search...' />
 				<RiShoppingCartLine className={styles.cart} />
 			</div>

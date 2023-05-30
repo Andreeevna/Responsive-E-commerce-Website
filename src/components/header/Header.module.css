@@ -46,6 +46,7 @@
 		padding: 1rem;
 		position: absolute;
 		flex-direction: column;
+		justify-content: center;
 		right: 2rem;
 		z-index: 100;
 		background: #fff;
@@ -61,10 +62,6 @@
 		display: none;
 		margin-left: -2rem;
 		flex-direction: column;
-	}
-
-	.menu__list > li {
-		margin-bottom: 1rem;
 	}
 
 	.search {
