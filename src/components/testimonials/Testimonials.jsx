@@ -32,6 +32,20 @@ const Testimonials = () => {
 					slidesPerView={3}
 					slidesPerGroup={1}
 					spaceBetween={20}
+					breakpoints={{
+						1050: {
+							slidesPerView: 3,
+						},
+						856: {
+							slidesPerView: 3,
+						},
+						640: {
+							slidesPerView: 2,
+						},
+						0: {
+							slidesPerView: 1,
+						},
+					}}
 					className={styles.t_slider}
 				>
 					{TestimonialsData.map((t, index) => {

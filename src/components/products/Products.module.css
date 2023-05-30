@@ -43,3 +43,22 @@
 	height: 25rem;
 	overflow: scroll;
 }
+
+@media screen and (max-width: 856px) {
+	.container {
+		gap: 1rem;
+	}
+
+	.container > :nth-child(1) {
+		display: none;
+	}
+
+	.products {
+		grid-template-columns: none;
+		gap: 1rem;
+	}
+
+	.products_menu {
+		flex-direction: row;
+	}
+}

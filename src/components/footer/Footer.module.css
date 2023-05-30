@@ -46,6 +46,9 @@
 .pngLine:hover {
 	cursor: pointer;
 }
+.pngLine > span {
+	width: 70%;
+}
 
 .icon {
 	width: 25px;

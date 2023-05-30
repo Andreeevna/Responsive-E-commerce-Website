@@ -43,3 +43,15 @@
 .right_side__container {
 	width: 30rem;
 }
+
+@media screen and (max-width: 856px) {
+	.virtual {
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+		padding: 1rem;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 2rem;
+	}
+}

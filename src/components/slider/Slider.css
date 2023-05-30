@@ -71,3 +71,18 @@
 	width: 40%;
 	height: 100%;
 }
+
+@media screen and (max-width: 856px) {
+	.s_container {
+		margin-top: 2rem;
+	}
+	.s_container .swiper {
+		width: 90%;
+		height: 10rem;
+	}
+
+	.s_container .swiper-button-prev,
+	.s_container .swiper-button-next {
+		display: none;
+	}
+}
