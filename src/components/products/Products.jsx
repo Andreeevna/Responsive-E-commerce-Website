@@ -30,6 +30,7 @@ const Products = () => {
 					{products.map((item, index) => {
 						return (
 							<Product
+								key={index}
 								name={item.name}
 								details={item.details}
 								price={item.price}

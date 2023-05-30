@@ -36,3 +36,38 @@
 	height: 1.5rem;
 	cursor: pointer;
 }
+
+.burger {
+	display: none;
+}
+
+@media screen and (max-width: 640px) {
+	.right {
+		padding: 1rem;
+		position: absolute;
+		flex-direction: column;
+		right: 2rem;
+		z-index: 100;
+		background: #fff;
+		color: var(--black);
+		border-radius: 5px;
+	}
+
+	.burger {
+		display: block;
+	}
+
+	.menu__list {
+		display: none;
+		margin-left: -2rem;
+		flex-direction: column;
+	}
+
+	.menu__list > li {
+		margin-bottom: 1rem;
+	}
+
+	.search {
+		display: none;
+	}
+}
