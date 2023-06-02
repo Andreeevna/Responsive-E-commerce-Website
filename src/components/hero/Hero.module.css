@@ -141,3 +141,19 @@
 		height: 100%;
 	}
 }
+
+@media screen and (max-width: 640px) {
+	.circle {
+		top: 0;
+		width: 16rem;
+		height: 72%;
+	}
+	.mid_side > img {
+		top: 3rem;
+		width: 12rem;
+		height: 12rem;
+	}
+
+	.cart {
+	}
+}

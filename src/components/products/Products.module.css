@@ -62,3 +62,15 @@
 		flex-direction: row;
 	}
 }
+
+@media screen and (max-width: 856px) {
+	.products_title {
+		text-align: center;
+	}
+	.products_menu {
+		margin-left: -2rem;
+		gap: 1rem;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+}
